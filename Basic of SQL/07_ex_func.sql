@@ -1,11 +1,14 @@
 
+# Type of Functions 
+
 SELECT ROUND(92.427,2) FROM DUAL;
+# 92.43
 
 SELECT TRUNC(92.427,2) FROM DUAL;
+# 92.42
 
 SELECT MOD(2100,500) FROM DUAL;
-
-# Type of Functions 
+# 100
 
 SELECT UPPER('Hello World!') FROM DUAL; 
 # HELLO WORLD!
