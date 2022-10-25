@@ -29,3 +29,12 @@ SELECT LENGTH('HelloWorld') FROM DUAL;
 # 10
 SELECT INSTR('HelloWorld', 'e') FROM DUAL; 
 # 2 
+
+SELECT LPAD(10000,8,'*') FROM DUAL;
+# ***10000
+
+SELECT TRIM('d' FROM 'HelloWorld') FROM DUAL;
+# HelloWorl
+
+SELECT REPLACE('HelloWorld','Hello','Bye') FROM DUAL;
+# ByeWorld
