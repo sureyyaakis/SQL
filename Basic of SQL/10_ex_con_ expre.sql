@@ -17,3 +17,21 @@ DECODE(job,'MANAGER',1.20*salary,
 	       'CLERK',1.10*salary,
 	       salary) "Revised Salary"
 FROM emp_tab;
+
+# Function
+
+SELECT SUM(salary) FROM emp_tab;
+
+SELECT AVG(NVL(salary,0)) FROM emp_tab;
+
+SELECT MIN(salary),MAX(salary) FROM emp_tab WHERE deptno=30;
+
+SELECT COUNT(*) FROM emp_tab;
+
+SELECT name FROM emp_tab WHERE manager=7003;
+
+SELECT COUNT(DISTINCT(empno)) FROM emp_tab;
+
+SELECT MIN(hiredate), MAX(hiredate) FROM emp_tab;
+
+SELECT MIN(name), MAX(name) FROM emp_tab;
