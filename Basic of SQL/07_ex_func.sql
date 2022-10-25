@@ -16,5 +16,13 @@ SELECT LOWER('Hello World!') FROM DUAL;
 SELECT INITCAP('Hello World!') FROM DUAL;
 # Hello World!
 
+SELECT CONCAT('Hello','World') FROM DUAL;
+# HelloWorld
 
+SELECT SUBSTR('HelloWorld',6,10) FROM DUAL;
+# World
 
+SELECT LENGTH('HelloWorld') FROM DUAL; 
+# 10
+SELECT INSTR('HelloWorld', 'e') FROM DUAL; 
+# 2 
