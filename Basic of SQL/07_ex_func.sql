@@ -1,0 +1,20 @@
+
+SELECT ROUND(92.427,2) FROM DUAL;
+
+SELECT TRUNC(92.427,2) FROM DUAL;
+
+SELECT MOD(2100,500) FROM DUAL;
+
+# Type of Functions 
+
+SELECT UPPER('Hello World!') FROM DUAL; 
+# HELLO WORLD!
+
+SELECT LOWER('Hello World!') FROM DUAL;
+# hello world!
+
+SELECT INITCAP('Hello World!') FROM DUAL;
+# Hello World!
+
+
+
